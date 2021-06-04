@@ -13,7 +13,7 @@ public class Exercise13 {
         double rate = scan.nextDouble();
         System.out.print("Enter the number of years: ");
         int years = scan.nextInt();
-        System.out.printf("Enter the number of times the interest is compounded per year: ");
+        System.out.print("Enter the number of times the interest is compounded per year: ");
         int times = scan.nextInt();
         double compound_interest = principal * Math.pow(1+(rate/100)/times,times*years );
         System.out.printf("$%.0f invested at %.2f percent, for %d years compounded %d times per year is $%.2f",principal,rate,years,times,compound_interest);
